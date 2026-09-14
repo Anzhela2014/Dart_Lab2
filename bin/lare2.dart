@@ -1,5 +1,27 @@
-import 'package:lare2/lare2.dart' as lare2;
 
-void main(List<String> arguments) {
-  print('Hello world: ${lare2.calculate()}!');
+import 'package:lare2/todo.dart';
+void main(){
+// Todo task = Todo(1, 'Купить продукты');
+// print(task.id);
+// print(task.title);
+// print(task.isDone);
+
+
+// Todo task = Todo(
+//     id: 1,
+//     title: 'Купить продукты',
+
+  
+  // );
+ void main() {
+  Todo task1 = Todo(id: 1, title: 'Купить продукты');
+  Todo task2 = Todo(id: 2, title: 'Сделать зарядку');
+  task1.complete();
+  print(task1);
+  print(task2);
 }
+
+
+}
+
+
